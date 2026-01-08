@@ -1,10 +1,10 @@
-#Student Performance Tracker (Python)
+# Student Performance Tracker (Python)
 
-####Description:
+#### Description:
 
 A command-line based Python application to manage student records, calculate performance metrics, generate reports, and visualize individual student performance using graphs.
 
-####Features:
+#### Features:
 
 Add student records with multiple test marks
 Automatically calculates average marks and assigns grades
@@ -13,20 +13,20 @@ Visualize individual student performance trends using line graphs
 Generate performance feedback reports
 Persistent data storage using JSON file
 
-####Technologies Used:
+#### Technologies Used:
 
 Python 3
 JSON
 Matplotlib
 OS module
 
-####Project Structure:
+#### Project Structure:
 
 student.json
 student_perfomance_tracker.py
 README.md
 
-####How to Run:
+#### How to Run:
 
 --Clone the repository
 git clone https://github.com/your-username/student-performance-tracker.git
@@ -37,7 +37,7 @@ pip install matplotlib
 --Run the program
 python student_tracker.py
 
-####Menu Options:
+#### Menu Options:
 
 Add Student
 View Records
@@ -45,14 +45,14 @@ Visualize Performance
 Provide Report
 Exit
 
-####Grading Criteria:
+#### Grading Criteria:
 
 Average >= 90 → Grade A
 Average >= 75 → Grade B
 Average >= 60 → Grade C
 Average < 60 → Fail
 
-####Visualization Details:
+#### Visualization Details:
 
 Line graph showing test-wise performance
 X-axis: Test number
@@ -61,7 +61,7 @@ Input Validation
 Marks must be between 0 and 100
 Prevents invalid data entry
 
-####Skills Demonstrated:
+#### Skills Demonstrated:
 
 Python programming
 File handling using JSON
@@ -70,7 +70,7 @@ Data visualization using Matplotlib
 Modular programming
 Command-line application development
 
-####Future Enhancements:
+#### Future Enhancements:
 
 Class-wise performance comparison
 Export reports to CSV or PDF
